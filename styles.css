@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  border: 1px gray dotted;
+  color: #f9faf8;
+}
+
+
+body {
+  height: 100vh;
+  margin: 0 200px; /*cambiar de px a algo responsive*/
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  border: 1px  dotted;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.awesome .text {
+  flex-shrink: 1;
+  max-width: 250px; /*cambiar de px a algo responsive*/
+}
+
+.awesome .placeholder {
+  width: 250px; /*cambiar de px a algo responsive*/
+  height: 100px; /*cambiar de px a algo responsive*/
+  flex-shrink: 0;
+  
+}
+
+
+.awesome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+}
+
+.random {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.box {
+  width: 100px; /*cambiar de px a algo responsive*/
+  height: 100px; /*cambiar de px a algo responsive*/
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container > div > p {
+  color:  #1f2937;
+}
+
+.quote p {
+  text-align: end;
+  color:  #1f2937;
+}
+
+.quote h3 {
+color:  #1f2937;
+}
+
+
+.blue-box  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  /*agregar tamaño responsive*/
+
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 8px 32px;
+  font-weight: 700;
+}
+
+.footer {
+  text-align: center;
+}
