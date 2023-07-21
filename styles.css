@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  margin: 0 200px; /*cambiar de px a algo responsive*/
+  margin: 0 200px; /*cambiar de px a algo responsive y cambiar el margin de aca xq no deberia cortar los background de colores*/
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
