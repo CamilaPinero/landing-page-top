@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
-  border: 1px gray dotted;
+  
   color: #f9faf8;
 }
 
 
 body {
   height: 100vh;
-   
+  width: 100vw;
+  margin: 0;
   font-family: Roboto, sans-serif;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
+ 
 }
 
 section {
-  border: 1px  dotted;
-  padding: 0 20vw;
+  
+  padding: 10vh 12vw;
 }
 
 ul {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 5vw;
+  gap: 4vw;
 }
 
 .header {
@@ -30,27 +33,40 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   
 }
 
 .awesome .text {
   flex-shrink: 1;
-  max-width: 50%; /*cambiar de px a algo responsive*/
+  max-width: 50%; 
 }
 
 .awesome .placeholder {
-  width: 50%; /*cambiar de px a algo responsive*/
-  height: 100px; /*cambiar de px a algo responsive*/
+  
   flex-shrink: 0;
+  flex-basis: 50%;
+  height: 40vh; 
+  box-sizing: border-box;
+  background-color: #6d747e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+text-align: center;
+  
   
 }
 
 
 .awesome {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
+  gap: 2vw;
   background-color: #1f2937;
+  padding-bottom: 15vh;
+  
 }
 
 .random {
@@ -61,13 +77,15 @@ ul {
 }
 
 .box {
-  width: 100px; /*cambiar de px a algo responsive*/
-  height: 100px; /*cambiar de px a algo responsive*/
+  width: 12vw; 
+  height: 12vw;
+  border-radius: 15px;
+  border: #3882f6 solid 4px ;
 }
 
 .container {
   display: flex;
-  gap: 10px;
+  gap: 5vw;
 }
 
 .container > div {
@@ -75,10 +93,17 @@ ul {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 12vw;
+  font-size: 16px;
 }
 
 .container > div > p {
   color:  #1f2937;
+}
+
+.quote {
+  padding-left: 18vw;
+  padding-right: 18vw;
 }
 
 .quote p {
@@ -90,14 +115,27 @@ ul {
 color:  #1f2937;
 }
 
+.action {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 .blue-box  {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8vw;
   background-color: #3882f6;
   border-radius: 8px;
-  /*agregar tamaño responsive*/
+  width: max-content;
+  padding: 3vw 8vw;
+  
+
+}
+
+.blue-box p {
+  margin: 0;
 
 }
 
@@ -106,8 +144,11 @@ button {
   border-radius: 8px;
   padding: 8px 32px;
   font-weight: 700;
+  border: none;
 }
 
 .footer {
   text-align: center;
+  background-color: #1f2937;
+  padding: 2vh 12vw;
 }
