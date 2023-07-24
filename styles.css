@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  margin: 0 200px; /*cambiar de px a algo responsive y cambiar el margin de aca xq no deberia cortar los background de colores*/
+   
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -15,13 +15,14 @@ body {
 
 section {
   border: 1px  dotted;
+  padding: 0 20vw;
 }
 
 ul {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 10px;
+  gap: 5vw;
 }
 
 .header {
@@ -29,15 +30,16 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
+  
 }
 
 .awesome .text {
   flex-shrink: 1;
-  max-width: 250px; /*cambiar de px a algo responsive*/
+  max-width: 50%; /*cambiar de px a algo responsive*/
 }
 
 .awesome .placeholder {
-  width: 250px; /*cambiar de px a algo responsive*/
+  width: 50%; /*cambiar de px a algo responsive*/
   height: 100px; /*cambiar de px a algo responsive*/
   flex-shrink: 0;
   
