@@ -18,14 +18,14 @@ body {
 
 section {
   
-  padding: 10vh 12vw;
+  padding: 10vh 12%;
 }
 
 ul {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 4vw;
+  gap: 20px;
 }
 
 .header {
@@ -63,7 +63,7 @@ text-align: center;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 2vw;
+  gap: 5%;
   background-color: #1f2937;
   padding-bottom: 15vh;
   
@@ -102,8 +102,8 @@ text-align: center;
 }
 
 .quote {
-  padding-left: 18vw;
-  padding-right: 18vw;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .quote p {
@@ -125,24 +125,24 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8vw;
+  
   background-color: #3882f6;
   border-radius: 8px;
-  width: max-content;
-  padding: 3vw 8vw;
-  
+  width: 50%;
+  padding: 5% 8%;
+  flex-grow: 1;
 
 }
 
 .blue-box p {
-  margin: 0;
+  margin: 1px;
 
 }
 
 button {
   background-color: #3882f6;
   border-radius: 8px;
-  padding: 8px 32px;
+  padding: 8px 30px;
   font-weight: 700;
   border: none;
 }
@@ -150,5 +150,5 @@ button {
 .footer {
   text-align: center;
   background-color: #1f2937;
-  padding: 2vh 12vw;
+  padding: 2vh 12%;
 }
